@@ -20,7 +20,7 @@ list(set=set,get=get,setInverse=setInverse,getInverse=getInverse)
 }
 
 ## After creating a object using makeCacheMatrix. Call cacheSolve to get inverse of the object. 
-## No. Of Arguments:1; Argument_1=makeCacheMatrix(); ReturnType=matrix()
+## No. Of Arguments:1; Argument_1=makeCacheMatrix(); ReturnType=matrix().
 cacheSolve <- function(x, ...) {
         ## Return a matrix that is the inverse of 'x'
 	m<-x$getInverse()
