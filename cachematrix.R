@@ -2,7 +2,7 @@
 ## It provides a list object which can cache the inverse of matrix. 
 ## So if its needed again, the inverse needn't be recomputed, instead inverse can be accessed from cache
 
-## Make Cache Matrix is used to return the new object which can handle the creation of cached Matrix.
+## Make Cache Matrix returns an object which can cache the inverse of Matrix.
 ## Call this function to create the new inverse cache enabled matrix.
 ## No.Of Arguments:1; Argument_1: matrix();. Return Type: list()
 
